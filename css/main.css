@@ -10583,13 +10583,18 @@ section {
   width: 72px;
   left: calc((50% - 560px) - 36px);
   position: absolute;
-  top: 90vh; }
+  top: 90vh;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  align-items: center;
+  height: 22px; }
   .hero .carousel-controls .carousel-control-prev, .hero .carousel-controls .carousel-control-next {
     opacity: 1; }
   .hero .carousel-controls .carousel-control-prev-icon {
-    background: url("../images/hero-prev.svg") no-repeat; }
+    background: url("../images/hero-prev.svg") center no-repeat; }
   .hero .carousel-controls .carousel-control-next-icon {
-    background: url("../images/hero-next.svg") no-repeat; }
+    background: url("../images/hero-next.svg") center no-repeat; }
 
 .popular .container {
   padding: 96px 0 48px; }
@@ -10674,13 +10679,6 @@ section {
             grid-area: 2 / 1 / 3 / 2; }
           .popular .container .popular_items .popular_item:nth-child(4) {
             grid-area: 2 / 2 / 3 / 3; } }
-
-.carousel-track {
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: none; }
-  .carousel-track::-webkit-scrollbar {
-    display: none; }
 
 .footer {
   color: white;
